@@ -14,16 +14,6 @@ Actuators:
 - 4-point LED
 
 
-PINS:
-
-// DHT
-#define DHTPIN 2     // Digital pin connected to the DHT sensor
-
-//MH-Z14a
-//read method: PWM in use not UART
-// set interrupt pin numbers to recive output signal:
-const int sensorPin = 3; // Pin 3 as the sensor pin
-
 
 //INFOS
 
@@ -57,3 +47,15 @@ const int sensorPin = 3; // Pin 3 as the sensor pin
 // The signal after striking with an obstacle returns back and is captured by the receiver. 
 // Thus the distance of the obstacle from the sensor is simply calculated by the formula given as
 // Distance = (time x speed)/2.
+
+
+
+PINS:
+
+// DHT
+#define DHTPIN 2     // Digital pin connected to the DHT sensor
+
+//MH-Z14a
+//read method: PWM in use not UART
+// set interrupt pin numbers to recive output signal:
+const int sensorPin = 3; // Pin 3 as the sensor pin
