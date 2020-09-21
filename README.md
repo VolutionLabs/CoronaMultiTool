@@ -1,5 +1,5 @@
-# CoronaMultiTool
-A device for the measurement of Corona virus related physical parameters of space
+# CoronaMultiTool -  Distance / CO2 / Humidity Corona Tool for Arduino 
+A device for the measurement of Corona virus related physical parameters of space - corona tool arduino
 
 Arduino Nano
 
