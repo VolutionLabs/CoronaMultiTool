@@ -17,7 +17,7 @@ Actuators:
 
 
 
-## //INFOS
+## infos
 
 // CO2
 // im Freien: 400ppm. 
@@ -52,7 +52,7 @@ Actuators:
 
 
 
-## PINS:
+## pins
 
 // DHT
 #define DHTPIN 2     // Digital pin connected to the DHT sensor
@@ -63,6 +63,7 @@ Actuators:
 const int sensorPin = 3; // Pin 3 as the sensor pin
 
 
-## current state: 
+## current state
+
 - currently uses PWD MH-Z14a communication: wrong value ca. 1600ppm
 - UART communication (A0, A1): gives Arduino port error
