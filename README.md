@@ -61,3 +61,7 @@ PINS:
 //read method: PWM in use not UART
 // set interrupt pin numbers to recive output signal:
 const int sensorPin = 3; // Pin 3 as the sensor pin
+
+
+current state:  - currently uses PWD MH-Z14a communication: wrong value ca. 1600ppm
+                - UART communication (A0, A1): gives Arduino port error
