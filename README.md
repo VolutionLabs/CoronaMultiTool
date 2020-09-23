@@ -65,5 +65,6 @@ const int sensorPin = 3; // Pin 3 as the sensor pin
 
 ## current state
 
-- currently uses PWD MH-Z14a communication: wrong value ca. 1600ppm
-- UART communication (A0, A1): gives Arduino port error
+MH-Z14a communication:
+Analog, PWD, UART
+--> questionable values ==> calibrate
