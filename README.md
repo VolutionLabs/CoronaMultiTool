@@ -1,5 +1,5 @@
 # CoronaMultiTool -  Distance / CO2 / Humidity Corona Tool for Arduino 
-A device for the measurement of Corona virus related physical parameters of space - corona tool arduino
+A device for the measurement of Corona virus related physical parameters of space
 
 
 ![CoronaMultitool-1](https://user-images.githubusercontent.com/2845142/94610655-e5e5d600-02a0-11eb-9cc0-14b8dc722e2c.jpg)
@@ -65,9 +65,9 @@ Actuators:
 
 ## Einsatzzweck
 
-Überwachung der Raumluft
-Unterstützung bei Lüftungskonzept
-Coronavirus Aerosolvermeidung 
+- Überwachung der Raumluft
+- Unterstützung bei Lüftungskonzept
+- Coronavirus Aerosolvermeidung 
 
 
 ## Hintergrund
@@ -83,13 +83,13 @@ Richtiges Lüften reduziert Risiko der SARS-CoV-2-Infektion | Umweltbundesamt
 
 
 ## Pins
-Ultraschall HC-SR04	D5, D6
-LED	D7
-Buzzer	D8
-MH-Z14a	analog A3, pwd D3, serial A0, A1
-DHT-22	D2
-BME280	A4, A5
-OLED	A4, A5
+- Ultraschall HC-SR04	D5, D6
+- LED	D7
+- Buzzer	D8
+- MH-Z14a	analog A3, pwd D3, serial A0, A1
+- DHT-22	D2
+- BME280	A4, A5
+- OLED	A4, A5
 
 
 ## current state
