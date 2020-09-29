@@ -94,9 +94,11 @@ OLED	A4, A5
 
 ## current state
 
+.2 displays (4-digit & OLED) at the same time does not work
 
 
 ## further
+
 
 .Value CO2
 - calibrate MH-Z14a
