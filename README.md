@@ -25,7 +25,7 @@ Actuators:
 
 ## infos
 
-// CO2
+### CO2
 // im Freien: 400ppm. 
 // gut ventilierter Innenraum: 800ppm
 // kritisch ab 1000ppm
@@ -38,7 +38,7 @@ Actuators:
 // Der Einsatz von CO2-Ampeln ist besonders für Schulen zu empfehlen, da die wenigsten Schulen bis heute über RLT-Anlagen verfügen. 
 
 
-// Luftfeuchtigkeit
+### Luftfeuchtigkeit
 // ==> relative Luftfeuchtigkeit der Raumluft  mindestens 40 - 60 Prozent
 // Quelle: Leipziger TROPOS-Institut 
 // Link: https://www.tropos.de/aktuelles/pressemitteilungen/details/coronavirus-sars-cov-2-breitet-sich-bei-niedriger-luftfeuchtigkeit-in-innenraeumen-staerker-aus
@@ -48,7 +48,7 @@ Actuators:
 // bleiben leichter, fliegen weiter durch den Raum und werden eher von Gesunden eingeatmet. 
 // Außerdem werden bei trockener Luft auch die Nasenschleimhäute in unseren Nasen trockner und durchlässiger für Viren“
 
-// Abstandsmessung Ultraschall
+### Abstandsmessung Ultraschall
 // Distance = (Time x Speed of Sound in Air (340 m/s))/2
 // ECHO of sound. A pulse is sent for about 10us to trigger the module. 
 // After which the module automatically sends 8 cycles of 40 KHz ultrasound signal and checks its echo. 
