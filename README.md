@@ -9,13 +9,13 @@ A device for the measurement of Corona virus related physical parameters of spac
 
 Arduino Nano
 
-Sensors:
+### Sensors:
 - MH-Z14a (CO2 (NDIR))
 - DHT-22 (temperature, humidity)
 - BME260 (temperature, humidity, pressure, altitude)
 
 
-Actuators:
+### Actuators:
 - OLED 128x64 Adafruit_SSD1306
 - Buzzer
 - LED red
@@ -23,7 +23,7 @@ Actuators:
 
 
 
-## infos
+## Info Parameter
 
 ### CO2
 // im Freien: 400ppm. 
