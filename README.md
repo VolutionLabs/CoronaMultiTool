@@ -63,8 +63,45 @@ Actuators:
 const int sensorPin = 3; // Pin 3 as the sensor pin
 
 
+## Einsatzzweck
+
+Überwachung der Raumluft
+Unterstützung bei Lüftungskonzept
+Coronavirus Aerosolvermeidung 
+
+
+## Hintergrund
+
+ZDF Info Visualisierung: Ausbreitung Aerosole 
+Corona-Risiko im Klassenzimmer
+
+Umweltbundesamt: Stellungnahme der Kommission Innenraumlufthygiene: 
+“Das Risiko einer Übertragung von SARS-CoV-2 in Innenräumen lässt sich durch geeignete Lüftungsmaßnahmen reduzieren” (Stand: 12. August 2020)  
+(Microsoft Word - IRK Stellungnahme Lüften SARS-CoV-2)
+
+Richtiges Lüften reduziert Risiko der SARS-CoV-2-Infektion | Umweltbundesamt
+
+
+## Pins
+Ultraschall HC-SR04	D5, D6
+LED	D7
+Buzzer	D8
+MH-Z14a	analog A3, pwd D3, serial A0, A1
+DHT-22	D2
+BME280	A4, A5
+OLED	A4, A5
+
+
 ## current state
 
-MH-Z14a communication:
-Analog, PWD, UART
---> questionable values ==> calibrate
+
+
+## further
+
+.Value CO2
+- calibrate MH-Z14a
+- test MH-Z19b
+
+
+
+
