@@ -52,15 +52,9 @@ Actuators:
 
 
 
-## pins
+![CoronaMultitool-Fritzing_Schema_multitool-combined](https://user-images.githubusercontent.com/2845142/94610182-2bee6a00-02a0-11eb-99e7-626b08c7d2e6.jpeg)
 
-// DHT
-#define DHTPIN 2     // Digital pin connected to the DHT sensor
 
-//MH-Z14a
-//read method: PWM in use not UART
-// set interrupt pin numbers to recive output signal:
-const int sensorPin = 3; // Pin 3 as the sensor pin
 
 
 ## Einsatzzweck
