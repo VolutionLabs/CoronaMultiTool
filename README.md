@@ -94,16 +94,19 @@ Richtiges Lüften reduziert Risiko der SARS-CoV-2-Infektion | Umweltbundesamt
 
 ## current state
 
-.2 displays (4-digit & OLED) at the same time does not work
+working.
+split into 2 tools in v.1.1:
+DistanzKasten & Luft-Ampel
 
 
 ## further
 
 
 .Value CO2
-- calibrate MH-Z14a
+- better calibrate MH-Z14a
 - test MH-Z19b
 
+.upload plans v.1.1
 
 
 
