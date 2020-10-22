@@ -1,5 +1,4 @@
-# CoronaMultiTool -  Distance / CO2 / Humidity Corona Tool for Arduino 
-A device for the measurement of Corona virus related physical parameters of space
+
 
 
 ![CoronaMultitool-1](https://user-images.githubusercontent.com/2845142/94610655-e5e5d600-02a0-11eb-9cc0-14b8dc722e2c.jpg)
