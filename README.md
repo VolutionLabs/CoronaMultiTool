@@ -10,16 +10,19 @@ A device for the measurement of Corona virus related physical parameters of spac
 Arduino Nano
 
 ### Sensors:
-- MH-Z14a (CO2 (NDIR))
-- DHT-22 (temperature, humidity)
-- BME260 (temperature, humidity, pressure, altitude)
-
+- MH-Z14a (CO2 (NDIR)) 
+- DHT-22 (temperature, humidity) alternativ:
+- BME260 (temperature, humidity, pressure, altitude) 
 
 ### Actuators:
-- OLED 128x64 Adafruit_SSD1306
+- OLED 128x64 Adafruit_SSD1306 
 - Buzzer
 - LED red
 - 4-point LED
+
+split into 2 tools in v.1.1:
+DistanzKasten & Luft-Ampel
+
 
 
 
@@ -57,10 +60,14 @@ Arduino Nano
 // Distance = (time x speed)/2.
 
 
+### MultiTool
+![CoronaMultitool-Fritzing_Schema_multitool-combined](https://user-images.githubusercontent.com/2845142/98366994-29b4c380-2035-11eb-81f4-64932d8c753e.jpeg)
 
-![CoronaMultitool-Fritzing_Schema_multitool-combined](https://user-images.githubusercontent.com/2845142/94610182-2bee6a00-02a0-11eb-99e7-626b08c7d2e6.jpeg)
+### CO2-Ampel
+![CoronaMultitool-Fritzing_Schema-CO2](https://user-images.githubusercontent.com/2845142/98366702-b57a2000-2034-11eb-9143-880c6ea64829.png)
 
-
+### Distanz-Kasten
+![CoronaMultitool-Fritzing_Schema-DistTool](https://user-images.githubusercontent.com/2845142/98366843-eb1f0900-2034-11eb-9c9b-c08f677ff377.jpeg)
 
 
 ## Einsatzzweck
@@ -72,15 +79,12 @@ Arduino Nano
 
 ## Hintergrund
 
-ZDF Info Visualisierung: Ausbreitung Aerosole 
-Corona-Risiko im Klassenzimmer
-
 Umweltbundesamt: Stellungnahme der Kommission Innenraumlufthygiene: 
 “Das Risiko einer Übertragung von SARS-CoV-2 in Innenräumen lässt sich durch geeignete Lüftungsmaßnahmen reduzieren” (Stand: 12. August 2020)  
-(Microsoft Word - IRK Stellungnahme Lüften SARS-CoV-2)
+(Microsoft Word - IRK Stellungnahme Lüften SARS-CoV-2) https://www.umweltbundesamt.de/sites/default/files/medien/2546/dokumente/irk_stellungnahme_lueften_sars-cov-2_0.pdf
 
 Richtiges Lüften reduziert Risiko der SARS-CoV-2-Infektion | Umweltbundesamt
-
+https://www.umweltbundesamt.de/presse/pressemitteilungen/richtiges-lueften-reduziert-risiko-der-sars-cov-2
 
 ## Pins
 - Ultraschall HC-SR04	D5, D6
@@ -91,22 +95,35 @@ Richtiges Lüften reduziert Risiko der SARS-CoV-2-Infektion | Umweltbundesamt
 - BME280	A4, A5
 - OLED	A4, A5
 
+## Costs
+| Komponenten  | DistanzTool | CO2/LuftfeuchtigkeitsTool |
+| ------------- | ------------- | ------------- |
+| Arduino Nano  | 15,69 € |15,69 € |
+| Ultraschall HC-SR04 | 1,56 €  | - |
+| LED  | 0,3 € | - |
+| Buzzer | 2,05 € | - |
+| MH-Z14a  | - | 27 € |
+| DHT-22 | - | 4 € |
+| BME280  | - | 3,31 € |
+| OLED | -  | 4 € |
+| 4-Digit LED  | - | 6 € |
+| Jumperkabel | 3 €  | 3 €|
+| Widerstand  | 0,09 €  | 0,09 € |
+| Level Converter  |  | 4 € |
+| Kosten gesamt  | 22,69 € | 63,09 € |
+
 
 ## current state
 
 working.
-split into 2 tools in v.1.1:
-DistanzKasten & Luft-Ampel
+
 
 
 ## further
-
 
 .Value CO2
 - better calibrate MH-Z14a
 - test MH-Z19b
 
 .upload plans v.1.1
-
-
 
